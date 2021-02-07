@@ -1,10 +1,39 @@
-﻿using System.Collections;
+﻿/*******************************************************************************
+  @file     UIController.cs
+  @brief    This file controls wat is showed in the UI Panel
+  @author   Matias Francois
+ ******************************************************************************/
+
+/*******************************************************************************
+ *							USING FILES
+ ******************************************************************************/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*******************************************************************************
+*					CLASSES WITH GLOBAL SCOPE
+******************************************************************************/
+
 public class UIController : MonoBehaviour
 {
+    //--------------------------------------------------------------
+    //                Variables with public scope
+    //--------------------------------------------------------------
+
+    /*
+     * UIRacePanel: Allow the class to use the UIPanel created in unity by the user
+     * 
+     * UITextCurrentLap: Allow the class to change the Current lap number
+     * UITextCurrentTime: Allow the class to change the Current lap time
+     * UITextLastLapTime: Allow the class to change the last lap time
+     * UITextBestLapTime: Allow the class to change the best lap time
+     * 
+     * UpdateUIForPlayer: get access to the player class to know the information inside
+     */
+
     public GameObject UIRacePanel;
 
     public Text UITextCurrentLap;
@@ -14,12 +43,27 @@ public class UIController : MonoBehaviour
 
     public Player UpdateUIForPlayer;
 
+    //--------------------------------------------------------------
+    //                Variables with private scope
+    //--------------------------------------------------------------
+
+    /*
+     * These variables facilitate the task of showing the values on the display
+     */
+
     private int currentLap = -1;
     private float currentTime = -1.0F;
     private float lastLapTime;
     private float bestLapTime;
 
-    // Update is called once per frame
+    //---------------------------------------------------------------
+    //                           Methods
+    //----------------------------------------------------------------
+
+    /*
+     * @brief  Update is called once per frame
+     * here we modify the Texts that are showed inside the UI Panel
+     */
     void Update()
     {
         if(UpdateUIForPlayer == null)

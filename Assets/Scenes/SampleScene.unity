@@ -47970,6 +47970,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: car
       objectReference: {fileID: 0}
+    - target: {fileID: 4260083337660536495, guid: ea374f8eb9056824e8d27f91354c95cc,
+        type: 3}
+      propertyPath: steer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260083337660536495, guid: ea374f8eb9056824e8d27f91354c95cc,
+        type: 3}
+      propertyPath: invertSteer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260083337879312193, guid: ea374f8eb9056824e8d27f91354c95cc,
+        type: 3}
+      propertyPath: steer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260083337879312193, guid: ea374f8eb9056824e8d27f91354c95cc,
+        type: 3}
+      propertyPath: invertSteer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260083339531280993, guid: ea374f8eb9056824e8d27f91354c95cc,
+        type: 3}
+      propertyPath: invertSteer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4365221987041819162, guid: ea374f8eb9056824e8d27f91354c95cc,
         type: 3}
       propertyPath: m_RootOrder
