@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="images/car.png" alt="CarGame" width="200">
+  <img src="Images/car.png" alt="CarGame" width="200">
   <br>
   CarGame
   <br>
