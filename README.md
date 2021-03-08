@@ -10,9 +10,9 @@
 
 
 <p align="center">
-  <a href="#what-is-it">What it is</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#preview">Preview</a> •
+  • <a href="#what-is-it">What it is</a> 
+  • <a href="#getting-started">Getting Started</a> 
+  • <a href="#preview">Preview</a> 
 </p>
 
 ## What it is
@@ -22,6 +22,10 @@ This is a car game that I create with the Unity engine using models made with bl
 In this game, the user drives a car on the track in order to travel it in the shortest time possible.
 
 On the display you can see the current, last and best recorded lap time.
+
+You can play the game in the next link:
+
+[CarGame](https://simmer.io/@matifrancois/cargame)
 
 Warning, cheating is not allowed in this game, if you skip the curve, the lap will not count. 
 
@@ -33,15 +37,16 @@ To run this project you must have unity installed (preferably version 2019 lts).
 
 Once you have it installed, you can open the project and click the play button.
 
-### Via executable
+### Via Internet
 
-Another way to run the game is using the .exe that is available in the executable folder.
+You can play the game in the next link:
 
+[CarGame](https://simmer.io/@matifrancois/cargame)
 
 ## Preview
 
 
 ### Game Preview
 
-![App Working](Demo/ExpensesApp.gif)
+![App Working](Images/carGame_small_resized_fastly.gif)
 
